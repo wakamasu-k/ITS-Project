@@ -12,7 +12,7 @@ from nuscenes.utils.geometry_utils import transform_matrix
 # ----------------------------
 # 設定（環境に合わせて変更）
 # ----------------------------
-DATA_ROOT = r"D:/Users/wakamatsu.k/Desktop/ITS/nuscenes"  # nuscenes データルート（v1.0-mini を含むフォルダ）
+DATA_ROOT = r"nuscenes"  # nuscenes データルート（v1.0-mini を含むフォルダ）
 NU_VERSION = "v1.0-mini"
 OUT_DIR = "output/reflectivity_mini"   # 出力フォルダ
 MAP_SIZE = 150.0       # 地図サイズ [m]（1辺） — シーンに合わせて調整

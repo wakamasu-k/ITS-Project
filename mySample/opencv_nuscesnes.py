@@ -9,7 +9,7 @@ from nuscenes import NuScenes
 from pyquaternion import Quaternion
 
 # === nuScenes データセットのルート ===
-dataset_root = r"D:\Users\wakamatsu.k\Desktop\ITS\nuscenes"
+dataset_root = r"nuscenes"
 
 # === 各センサのパス ===
 camera_dirs = {

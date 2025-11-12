@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 # =====================
 # 設定
 # =====================
-NUSCENES_DIR = r"D:\Users\wakamatsu.k\Desktop\ITS\nuscenes"  # ← 自分のパスに変更
-SAVE_DIR = r"D:\Users\wakamatsu.k\Desktop\ITS\mySample\output_reflectance_final"
+NUSCENES_DIR = r"nuscenes"  # ← 自分のパスに変更
+SAVE_DIR = r"mySample\output_reflectance_final"
 scene_name = "scene-0061"
 CAMERA_CHANNEL = "CAM_FRONT"
 LIDAR_CHANNEL = "LIDAR_TOP"

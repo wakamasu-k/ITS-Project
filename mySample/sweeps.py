@@ -44,8 +44,8 @@ def generate_reflectance_image(lidar_bin_path, output_path, width=2048, height=3
 # =====================================================
 # sweeps/LIDAR_TOP の全ファイルに対して実行
 # =====================================================
-sweeps_folder = r"D:\Users\wakamatsu.k\Desktop\ITS\nuscenes\sweeps\LIDAR_TOP"
-output_folder = r"D:\Users\wakamatsu.k\Desktop\ITS\nuscenes\intensity_sweeps"
+sweeps_folder = r"nuscenes\sweeps\LIDAR_TOP"
+output_folder = r"nuscenes\intensity_sweeps"
 os.makedirs(output_folder, exist_ok=True)
 
 bin_files = [f for f in os.listdir(sweeps_folder) if f.endswith(".bin")]

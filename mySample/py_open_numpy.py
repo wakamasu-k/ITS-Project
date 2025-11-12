@@ -6,7 +6,7 @@ from nuscenes.nuscenes import NuScenes
 from nuscenes.utils.geometry_utils import transform_matrix
 
 # === 設定 ===
-NUSCENES_ROOT = r"D:\Users\wakamatsu.k\Desktop\ITS\nuscenes"
+NUSCENES_ROOT = r"nuscenes"
 OVERLAY_SAVE_DIR = os.path.join(NUSCENES_ROOT, "overlays")
 os.makedirs(OVERLAY_SAVE_DIR, exist_ok=True)
 

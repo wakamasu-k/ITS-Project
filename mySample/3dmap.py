@@ -6,7 +6,7 @@ import numpy as np
 import open3d as o3d
 from tqdm import tqdm
 
-DATA_ROOT = "D:/Users/wakamatsu.k/Desktop/ITS/nuscenes"
+DATA_ROOT = "nuscenes"
 nusc = NuScenes(version='v1.0-mini', dataroot=DATA_ROOT, verbose=True)
 
 scene = nusc.scene[0]

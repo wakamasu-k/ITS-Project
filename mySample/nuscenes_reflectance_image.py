@@ -9,7 +9,7 @@ from tqdm import tqdm
 # ===========================
 # 設定
 # ===========================
-DATA_ROOT = r"D:/Users/wakamatsu.k/Desktop/ITS/nuscenes"
+DATA_ROOT = r"nuscenes"
 NU_VERSION = "v1.0-mini"
 OUTPUT_DIR = "output/reflectance_image"
 os.makedirs(OUTPUT_DIR, exist_ok=True)

@@ -7,7 +7,7 @@ from nuscenes.utils.data_classes import LidarPointCloud
 from nuscenes.utils.geometry_utils import transform_matrix
 
 # ====== データセットのパス ======
-DATA_ROOT = "D:/Users/wakamatsu.k/Desktop/ITS/nuscenes"
+DATA_ROOT = "nuscenes"
 nusc = NuScenes(version='v1.0-mini', dataroot=DATA_ROOT, verbose=True)
 
 # ====== 対象シーン ======
